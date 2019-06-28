@@ -4,9 +4,52 @@
     <title>Plasma Separation</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#first-spin").click(function(){
+            $("#separated-blood-tube").show();
+            $('#first-transfer').show();
+            $("#blood-tube").fadeOut("slow");
+            $("#first-spin").fadeOut("slow");
+          });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#first-transfer").click(function(){
+              $("#separated-blood-tube").fadeOut("slow");
+              $("#prp-tube").show();
+              $('#second-spin').show();
+              $("#first-transfer").fadeOut("slow")
+            });
+        });
+    </script>
+    <script>
+          $(document).ready(function(){
+            $("#second-spin").click(function(){
+              $("#separated-blood-tube").show();
+              $('#first-transfer').show();
+            });
+        });
+    </script>
+    <script>
+          $(document).ready(function(){
+            $("#final-transfer").click(function(){
+                $("#separated-blood-tube").show();
+                $('#first-transfer').show();
+            });
+          });
+    </script>
   </head>
   <body>
     <div id="blood-tube"></div>
-    <button id="spin">Spin Blood Tube!</button>
+    <button id="first-spin">First Centrifugation!</button>
+    <div id="separated-blood-tube"></div>
+    <button id="first-transfer">Transfer Platelet-Rich Plasma to new Tube!</button>
+    <div id="prp-tube"></div>
+    <button id="second-spin">Second Centrifugation!</button>
+    <div id="separated-plasma-tube"></div>
+    <button id="final-transfer">Transfer Clean Plasma to new Tube!</button>
+    <div id="final-plasma-tube"></div>
   </body>
 </html>
