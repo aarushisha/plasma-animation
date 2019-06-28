@@ -20,7 +20,7 @@
   border-top: white solid 40px;
   height: 150px;
   width: 40px;
-  background-image: linear-gradient(to bottom, yellow, yellow 55%, white, white 55%, red, red 60%);
+  background-image: linear-gradient(to bottom, yellow, yellow 55%, white, white 57%, red, red 60%);
   border-radius: 0px 0px 50px 50px;
   margin-bottom: 10px;
   align-content: center;
@@ -37,8 +37,8 @@
   height: 100px;
   width: 40px;
   background:
-    radial-gradient(rgb(168, 165, 165) 15%, transparent 16%) 0 0,
-    radial-gradient(rgb(168, 165, 165) 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgb(223, 222, 222) 15%, transparent 16%) 0 0,
+    radial-gradient(rgb(223, 222, 222) 15%, transparent 16%) 8px 8px,
     radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
     radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color: yellow;
@@ -58,7 +58,7 @@ background-size:16px 16px;
   border-top: white solid 100px;
   height: 100px;
   width: 40px;
-  background-image: linear-gradient(to bottom, yellow, yellow 85%, rgb(168, 165, 165)  15%, rgb(168, 165, 165) );
+  background-image: linear-gradient(to bottom, yellow, yellow 85%, rgb(223, 222, 222)  15%, rgb(223, 222, 222) );
   border-radius: 0px 0px 50px 50px;
   margin-bottom: 10px;
   align-content: center;

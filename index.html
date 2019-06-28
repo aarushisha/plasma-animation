@@ -17,7 +17,7 @@
              }
           );
             $("#blood-tube").fadeOut("slow");
-            $("#first-spin").fadeOut("slow");
+            $("#first-spin").fadeOut("fast");
             $("#separated-blood-tube").delay(2800).fadeIn("slow");
             $('#first-transfer').delay(2800).fadeIn("slow");
           });
@@ -37,7 +37,7 @@
           $(document).ready(function(){
             $("#second-spin").click(function(){
               $('#prp-tube').animate(
-                { deg: 1800 },
+                { deg: 3600 },
               {
               duration: 2000,
               step: function(now) {
