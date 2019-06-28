@@ -1,0 +1,11 @@
+#blood-tube {
+  border-right: black solid 2px;
+  border-left: black solid 2px;
+  border-bottom: black solid 2px;
+  border-top: white solid 40px;
+  height: 200px;
+  width: 50px;
+  background-color: red;
+  border-radius: 0px 0px 50px 50px;
+  margin-bottom: 50px;
+}
