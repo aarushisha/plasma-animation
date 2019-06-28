@@ -9,7 +9,7 @@
   border-radius: 0px 0px 50px 50px;
   margin-bottom: 10px;
   align-content: center;
-  margin-left: 50px;
+  margin-left: 150px;
   display: inline-block;
 }
 
@@ -22,9 +22,9 @@
   width: 40px;
   background-image: linear-gradient(to bottom, yellow, yellow 55%, white, white 55%, red, red 60%);
   border-radius: 0px 0px 50px 50px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   align-content: center;
-  margin-left: 50px;
+  margin-left: 150px;
   display: inline-block;
   display: none;
 }
@@ -44,9 +44,9 @@
 background-color: yellow;
 background-size:16px 16px;
   border-radius: 0px 0px 50px 50px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   align-content: center;
-  margin-left: 50px;
+  margin-left: 150px;
   display: inline-block;
   display: none;
 }
@@ -58,11 +58,11 @@ background-size:16px 16px;
   border-top: white solid 100px;
   height: 100px;
   width: 40px;
-  background-image: linear-gradient(to bottom, #f5da42, #f5da42 85%, rgb(168, 165, 165)  15%, rgb(168, 165, 165) );
+  background-image: linear-gradient(to bottom, yellow, yellow 85%, rgb(168, 165, 165)  15%, rgb(168, 165, 165) );
   border-radius: 0px 0px 50px 50px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   align-content: center;
-  margin-left: 50px;
+  margin-left: 150px;
   display: inline-block;
   display: none;
 }
@@ -74,11 +74,11 @@ background-size:16px 16px;
   border-top: white solid 40px;
   height: 50px;
   width: 20px;
-  background-color: #f5da42;
+  background-color: yellow;
   border-radius: 0px 0px 50px 50px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   align-content: center;
-  margin-left: 50px;
+  margin-left: 150px;
   display: inline-block;
   display: none;
 }
@@ -91,22 +91,23 @@ background-size:16px 16px;
   margin-top: 100px;
 }
 
-#blood-tube:hover {
+/* #blood-tube {
   animation: shake 0.5s;
   animation-iteration-count: infinite; 
-}
+} */
 
 #first-transfer {
+  margin-left: 20px;
   display: none;
   float: right;
   margin-right: 900px;
 }
 
 #second-spin {
+  margin-left: 20px;
   display: none;
   float: right;
   margin-right: 900px;
-  margin-top: 100px;
 }
 
 #final-transfer {
@@ -114,7 +115,6 @@ background-size:16px 16px;
   margin-left: 20px;
   float: right;
   margin-right: 900px;
-  margin-top: 100px;
 }
 
 #whole-blood-description {
