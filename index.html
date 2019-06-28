@@ -10,16 +10,16 @@
             $('#blood-tube').animate(
               { deg: 720 },
             {
-              duration: 2000,
+              duration: 2400,
               step: function(now) {
                  $(this).css({ transform: 'rotate(' + now + 'deg)' });
               }
              }
           );
-            $("#blood-tube").fadeOut("fast");
-            $("#first-spin").fadeOut("fast");
-            $("#separated-blood-tube").delay(2400).fadeIn("slow");
-            $('#first-transfer').delay(2400).fadeIn("slow");
+            $("#blood-tube").fadeOut("slow");
+            $("#first-spin").fadeOut("slow");
+            $("#separated-blood-tube").delay(2800).fadeIn("slow");
+            $('#first-transfer').delay(2800).fadeIn("slow");
           });
         });
     </script>
@@ -27,9 +27,9 @@
         $(document).ready(function(){
             $("#first-transfer").click(function(){
               $("#separated-blood-tube").fadeOut("slow");
-              $("#prp-tube").show();
-              $('#second-spin').show();
-              $("#first-transfer").fadeOut("slow")
+              $("#first-transfer").fadeOut("slow");
+              $("#prp-tube").fadeIn("slow");
+              $('#second-spin').fadeIn("slow");
             });
         });
     </script>
@@ -45,19 +45,19 @@
               }
             }
           );
-              $("#separated-plasma-tube").show();
-              $('#final-transfer').show();
               $("#prp-tube").fadeOut("slow");
               $('#second-spin').fadeOut("slow");
+              $("#separated-plasma-tube").delay(2400).fadeIn("slow");
+              $('#final-transfer').delay(2400).fadeIn("slow");
             });
         });
     </script>
     <script>
           $(document).ready(function(){
             $("#final-transfer").click(function(){
-                $("#final-plasma-tube").show();
                 $("#separated-plasma-tube").fadeOut("slow");
                 $('#final-transfer').fadeOut("slow");
+                $("#final-plasma-tube").fadeIn("slow");
             });
           });
     </script>
