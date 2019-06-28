@@ -8,18 +8,18 @@
         $(document).ready(function(){
           $("#first-spin").click(function(){
             $('#blood-tube').animate(
-    { deg: 720 },
-    {
-      duration: 2000,
-      step: function(now) {
-        $(this).css({ transform: 'rotate(' + now + 'deg)' });
-      }
-    }
-  );
-            $("#blood-tube").fadeOut("slow");
-            $("#first-spin").fadeOut("slow");
-            $("#separated-blood-tube").show();
-            $('#first-transfer').show();
+              { deg: 720 },
+            {
+              duration: 2000,
+              step: function(now) {
+                 $(this).css({ transform: 'rotate(' + now + 'deg)' });
+              }
+             }
+          );
+            $("#blood-tube").fadeOut("fast");
+            $("#first-spin").fadeOut("fast");
+            $("#separated-blood-tube").delay(2400).fadeIn("slow");
+            $('#first-transfer').delay(2400).fadeIn("slow");
           });
         });
     </script>
@@ -37,14 +37,14 @@
           $(document).ready(function(){
             $("#second-spin").click(function(){
               $('#prp-tube').animate(
-    { deg: 1800 },
-    {
-      duration: 2000,
-      step: function(now) {
-        $(this).css({ transform: 'rotate(' + now + 'deg)' });
-      }
-    }
-  );
+                { deg: 1800 },
+              {
+              duration: 2000,
+              step: function(now) {
+                $(this).css({ transform: 'rotate(' + now + 'deg)' });
+              }
+            }
+          );
               $("#separated-plasma-tube").show();
               $('#final-transfer').show();
               $("#prp-tube").fadeOut("slow");
